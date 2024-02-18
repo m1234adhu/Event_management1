@@ -1,0 +1,95 @@
+/* src/EventList.css */
+.event-list {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.event-card {
+	background-color: #D2E3C8;
+	border: 1px solid #ddd;
+	border-radius: 8px;
+	margin: 10px;
+	padding: 15px;
+	width: 200px;
+	overflow: hidden;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.event-card:hover {
+	box-shadow: 0 4px 8px burlywood;
+}
+
+.event-info {
+	margin-bottom: 10px;
+}
+
+.event-title {
+	font-weight: bold;
+}
+
+.event-date {
+	color: #555;
+}
+
+.event-actions {
+	display: flex;
+	justify-content: space-between;
+}
+
+.delete-btn:hover {
+	background-color: red;
+	color: white;
+
+}
+
+.rem-para {
+	background-color: green;
+	color: white;
+	padding: 2px;
+	width: fit-content;
+
+	position: relative;
+	left: -1px;
+	bottom: 22px;
+
+}
+
+.even {
+	padding: 15px;
+	color: white;
+	background-color: rgb(235, 59, 97);
+	border-radius: 25px;
+}
+
+
+/* form 
+*/
+
+input {
+	padding: 5px;
+	width: 500px;
+}
+
+form {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	border: 2px solid red;
+	padding: 20px;
+	border-radius: 10px;
+	gap: 5px;
+	background: linear-gradient(to right, #FFA500, #FF6347);
+	;
+}
+
+.main-container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+label {
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	font-weight: 500;
+}
